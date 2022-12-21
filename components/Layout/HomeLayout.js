@@ -37,9 +37,9 @@ const HomeLayout = ({ children }) => {
           </label>
           {children}
         </div>
-        <div className="drawer-side py-6 max-w-[300px]">
+        <div className="drawer-side py-6 w-[50vw] h-screen md:w-[15vw]">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <ul className="menu p-2 bg-base-100 text-base-content pl-12">
+          <ul className="menu p-2 bg-base-100 text-base-content ml-0 md:ml-10 border-l border-opacity-40 border-gray-600">
             <li className="text-sm">
               <a href="#intro">Introduction</a>
             </li>
