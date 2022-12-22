@@ -24,7 +24,7 @@ const Introduction = () => {
 
           <a
             href="#contact"
-            className="btn btn-md btn-accent text-lg font-thin rounded-full mt-10 normal-case border-2 border-gray-900 text-gray-900 hover:scale-105"
+            className="btn btn-md btn-accent text-lg font-semibold rounded-full mt-10 normal-case border-2 border-gray-900 text-gray-900 hover:scale-105"
             style={{ boxShadow: "-5px 5px #66FCF1" }}
           >
             Drop a message
