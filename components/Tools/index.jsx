@@ -12,7 +12,7 @@ const Tools = () => {
           <br /> my projects
         </h1>
       </div>
-      <div className="col-span-5 md:col-span-3 row-span-3 pl-8 pr-4 flex flex-col justify-between">
+      <div className="col-span-5 md:col-span-3 row-span-3 pl-8 pr-4 flex flex-col justify-around">
         <div
           style={{ boxShadow: "-5px 5px #45a29e" }}
           className="border-2 bg-neutral border-accent p-4 relative flex flex-wrap items-center mb-6"
@@ -164,7 +164,9 @@ const Tools = () => {
             alt="Sujoy Ghosh's most used programming languages"
           />
         </div>
-        <div>most used languages 3d chart</div>
+        <div>
+          <img className="w-full object-contain" src="/calender.svg" alt="" />
+        </div>
       </div>
     </div>
   );

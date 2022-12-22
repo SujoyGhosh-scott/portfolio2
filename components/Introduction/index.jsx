@@ -13,7 +13,7 @@ const Introduction = () => {
             <br /> &nbsp;&nbsp;&nbsp;GHOSH
           </h1>
         </div>
-        <div className="row-span-4 bg-neutral px-12 md:px-16 py-10">
+        <div className="row-span-4 bg-neutral px-12 md:px-16 pt-8 pb-12">
           <h2 className="text-3xl mb-4">A full-stack Web Developer</h2>
           <p className="pr-0 lg:pr-24">
             currently pursuing my masters&apos; majoring in Computer Sc from St.
