@@ -7,7 +7,7 @@ const Experience = () => {
       className="min-h-screen grid grid-cols-5 grid-rows-7 md:grid-rows-4 pb-6"
     >
       <div className="pt-12 pb-8 pl-8 col-span-5 row-span-1">
-        <h1 className="text-3xl font-semibold p-1 bg-gradient-to-b from-[#1f2833] to-[#1f2833] inline">
+        <h1 className="blowbrush text-3xl p-1 bg-gradient-to-b from-[#1f2833] to-[#1f2833] inline">
           Education and Experience
         </h1>
         <p className="mt-2 text-lg w-full md:w-[40vw]">
@@ -63,14 +63,14 @@ const Experience = () => {
               />
               <p className="text-sm">CI/CD with GitHub Actions</p>
             </div>
-            <img src="/certificates/resp.png" className="mb-2" />
+            <img src="/certificates/digital-marketing.jpg" className="mb-2" />
             <div className="flex items-center mb-6">
               <img
-                src="/certificates/freecodecamp.png"
+                src="/certificates/google.png"
                 className="h-8 w-8 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">Responsive Web Design</p>
+              <p className="text-sm">Fundamentals of Digital Marketing</p>
             </div>
             <div className="block md:hidden">
               <img src="/certificates/flutter.png" className="mb-2" />

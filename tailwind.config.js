@@ -4,11 +4,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      sedgwick: ["Sedgwick Ave", "cursive"],
-      sedgwickdisplay: ["Sedgwick Ave Display", "cursive"],
-      lato: ["Lato", "sans-serif"],
-    },
+    fontFamily: {},
   },
   plugins: [require("daisyui")],
   daisyui: {
