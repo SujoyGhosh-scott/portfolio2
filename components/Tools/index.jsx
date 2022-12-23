@@ -47,7 +47,7 @@ const Tools = () => {
           </div>
           <div className="tooltip" data-tip="Next.js">
             <img
-              className="h-10 mr-4 object-contain"
+              className="h-9 mr-4 object-contain"
               src="/skills/nextjs.png"
               alt=""
             />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Experience = () => {
@@ -17,10 +18,10 @@ const Experience = () => {
       </div>
       <div className="col-span-5 md:col-span-2 row-span-3 border-opacity-20 pl-10">
         <ol className="relative border-l border-gray-200 dark:border-gray-700">
-          <li class="mb-6 ml-4">
+          <li className="mb-6 ml-4">
             {/* this is the circle */}
-            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Jun, 22 to Present
             </time>
             <div
@@ -33,17 +34,17 @@ const Experience = () => {
                 alt=""
               />
               <div className="flex-1">
-                <h3 class="font-semibold dark:text-white">Yubi Health</h3>
-                <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
+                <h3 className="font-semibold dark:text-white">Yubi Health</h3>
+                <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                   Software Engineer
                 </p>
               </div>
             </div>
           </li>
-          <li class="mb-6 ml-4">
+          <li className="mb-6 ml-4">
             {/* this is the circle */}
-            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Mar, 22 to Apr, 22
             </time>
             <div
@@ -56,17 +57,19 @@ const Experience = () => {
                 alt=""
               />
               <div className="flex-1">
-                <h3 class="font-semibold dark:text-white">Whales Network</h3>
-                <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
+                <h3 className="font-semibold dark:text-white">
+                  Whales Network
+                </h3>
+                <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                   App Developer
                 </p>
               </div>
             </div>
           </li>
-          <li class="mb-6 ml-4">
+          <li className="mb-6 ml-4">
             {/* this is the circle */}
-            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Feb, 21 to Dec, 21
             </time>
             <div
@@ -79,17 +82,17 @@ const Experience = () => {
                 alt=""
               />
               <div className="flex-1">
-                <h3 class="font-semibold dark:text-white">Support Genie</h3>
-                <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
+                <h3 className="font-semibold dark:text-white">Support Genie</h3>
+                <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                   Software Engineer
                 </p>
               </div>
             </div>
           </li>
-          <li class="mb-6 ml-4">
+          <li className="mb-6 ml-4">
             {/* this is the circle */}
-            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Aug, 21 to Present
             </time>
             <div
@@ -102,21 +105,21 @@ const Experience = () => {
                 alt=""
               />
               <div className="flex-1">
-                <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                   Started <strong>MSc</strong> course in Computer Science from{" "}
                   <strong>St. Xavier&apos;s College</strong>, Kolkata
                 </p>
               </div>
             </div>
           </li>
-          <li class="mb-6 ml-4">
+          <li className="mb-6 ml-4">
             {/* this is the circle */}
-            <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-            <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+            <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Jun, 2018 to Jul, 2021
             </time>
             <div
-              className="bg-neutral p-2 h-16 w-4/5 border-2 border-accent flex"
+              className="bg-neutral p-2 h-18 md:h-16 w-4/5 border-2 border-accent flex"
               style={{ boxShadow: "-5px 5px #007BE5" }}
             >
               <img
@@ -125,7 +128,7 @@ const Experience = () => {
                 alt=""
               />
               <div className="flex-1">
-                <p class="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
                   Completed <strong>BSc</strong> in Computer Science from{" "}
                   <strong>University of Calcutta</strong>
                 </p>
@@ -233,27 +236,28 @@ const Experience = () => {
           </div>
         </div>
         <div className="row-span-1 flex justify-center">
-          <a
-            href="#"
-            style={{ boxShadow: "-5px 5px #66FCF1" }}
-            className="btn btn-accent btn-md normal-case rounded-full hover:scale-105 text-lg border-2 border-black"
-          >
-            See all certificates
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-5 h-5 ml-4"
+          <Link href="/certificates">
+            <button
+              style={{ boxShadow: "-5px 5px #66FCF1" }}
+              className="btn btn-accent btn-md normal-case rounded-full hover:scale-105 text-lg border-2 border-black"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-              />
-            </svg>
-          </a>
+              See all certificates
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-5 h-5 ml-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
