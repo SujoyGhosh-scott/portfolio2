@@ -1,3 +1,4 @@
+import Experience from "../components/Experience";
 import Introduction from "../components/Introduction";
 import HomeLayout from "../components/Layout/HomeLayout";
 import Tools from "../components/Tools";
@@ -8,9 +9,7 @@ export default function Home() {
       <div className="flex flex-col">
         <Introduction />
         <Tools />
-        <div id="education" className="h-screen">
-          <h1>Education and experiences</h1>
-        </div>
+        <Experience />
         <div id="projects" className="h-screen">
           <h1>Projects</h1>
         </div>

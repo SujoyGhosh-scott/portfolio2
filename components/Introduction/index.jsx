@@ -88,7 +88,7 @@ const Introduction = () => {
               >
                 <div className="h-3/5 w-3/5">
                   <a href="#" target="_blank">
-                    <img src="/social/npm.png" alt="" />
+                    <img src="/social/npm2.jpg" alt="" />
                   </a>
                 </div>
               </div>
