@@ -25,7 +25,7 @@ const Experience = () => {
               Jun, 22 to Present
             </time>
             <div
-              className="bg-neutral p-2 h-16 w-4/5 border-2 border-black flex"
+              className="bg-neutral p-2 h-16 w-4/5 border-2 border-[#007BE5] flex"
               style={{ boxShadow: "-5px 5px #66fcf1" }}
             >
               <img
@@ -48,7 +48,7 @@ const Experience = () => {
               Mar, 22 to Apr, 22
             </time>
             <div
-              className="bg-neutral p-2 h-16 w-4/5 border-2 border-black flex"
+              className="bg-neutral p-2 h-16 w-4/5 border-2 border-[#007BE5] flex"
               style={{ boxShadow: "-5px 5px #66fcf1" }}
             >
               <img
@@ -73,7 +73,7 @@ const Experience = () => {
               Feb, 21 to Dec, 21
             </time>
             <div
-              className="bg-neutral p-2 h-16 w-4/5 border-2 border-black flex"
+              className="bg-neutral p-2 h-16 w-4/5 border-2 border-[#007BE5] flex"
               style={{ boxShadow: "-5px 5px #66fcf1" }}
             >
               <img

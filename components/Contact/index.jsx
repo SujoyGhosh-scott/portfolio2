@@ -20,7 +20,7 @@ const ContactMe = () => {
           }}
         >
           <div
-            style={{ boxShadow: "-5px 5px #66fcf1" }}
+            style={{ boxShadow: "-6px 6px #45a29e" }}
             className="form-control border-2 border-black bg-neutral p-5 w-full max-w-xs mb-20 md:mb-0"
           >
             <label className="label">

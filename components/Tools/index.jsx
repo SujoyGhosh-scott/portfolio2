@@ -45,6 +45,13 @@ const Tools = () => {
               alt=""
             />
           </div>
+          <div className="tooltip" data-tip="ReactJs">
+            <img
+              className="h-8 mr-4 object-contain"
+              src="/skills/reactjs.png"
+              alt=""
+            />
+          </div>
           <div className="tooltip" data-tip="Next.js">
             <img
               className="h-9 mr-4 object-contain"
