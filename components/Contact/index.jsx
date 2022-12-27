@@ -4,7 +4,7 @@ const ContactMe = () => {
   return (
     <div id="contact" className="min-h-[90vh] grid grid-cols-5">
       <div className="col-span-5 md:col-span-2 p-2 flex flex-col justify-center pl-8">
-        <h2 className="blowbrush text-2xl bg-neutral w-fit mb-2">Contact me</h2>
+        <h2 className="blowbrush text-3xl bg-neutral w-fit mb-3">Contact me</h2>
         <p className="w-4/5">
           If you want to reach out to me, regarding any job opportunity,
           personal project or some other query feel free to drop a message in

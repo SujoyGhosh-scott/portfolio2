@@ -13,9 +13,9 @@ const Projects = () => {
       <div className="px-16 row-span-3 grid grid-cols-4 overflow-hidden -ml-6 md:0 mb-10 md:mb-0">
         <div
           style={{ transform: "skewX(-11deg)" }}
-          className="col-span-2 md:col-span-1 flex items-center hover:bg-neutral hover:text-primary bg-base-100 border border-white border-opacity-50"
+          className="col-span-2 md:col-span-1 flex items-center hover:text-primary bg-neutral-focus border border-white border-opacity-50"
         >
-          <Link href="/projects/frontend">
+          <Link href="/projects/frontend" className="w-full">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"
@@ -27,23 +27,23 @@ const Projects = () => {
         </div>
         <div
           style={{ transform: "skewX(-11deg)" }}
-          className="col-span-2 md:col-span-1 flex items-center hover:bg-neutral hover:text-primary bg-base-100 border border-white border-opacity-50"
+          className="col-span-2 md:col-span-1 flex items-center hover:text-primary bg-base-100 border border-white border-opacity-50"
         >
-          <Link href="/projects/full-stack">
+          <Link href="/projects/full-stack" className="w-full">
             <div
               style={{ transform: "skewX(11deg)" }}
-              className="flex flex-col justify-center items-center text-center"
+              className="w-full flex flex-col items-center"
             >
               <h2 className="text-2xl blowbrush text-primary">Full Stack</h2>
-              <p className="w-full">full-stack hosted apps</p>
+              <p className="w-4/5 text-center">full-stack hosted apps</p>
             </div>
           </Link>
         </div>
         <div
           style={{ transform: "skewX(-11deg)" }}
-          className="col-span-2 md:col-span-1 flex items-center hover:bg-neutral hover:text-primary bg-base-100 border border-white border-opacity-50"
+          className="col-span-2 md:col-span-1 flex items-center hover:text-primary bg-base-100 md:bg-neutral-focus border border-white border-opacity-50"
         >
-          <Link href="/projects/packages">
+          <Link href="/projects/packages" className="w-full">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"
@@ -55,9 +55,9 @@ const Projects = () => {
         </div>
         <div
           style={{ transform: "skewX(-11deg)" }}
-          className="col-span-2 md:col-span-1 flex items-center hover:bg-neutral hover:text-primary bg-base-100 border border-white border-opacity-50"
+          className="col-span-2 md:col-span-1 flex items-center hover:text-primary bg-neutral-focus md:bg-base-100 border border-white border-opacity-50"
         >
-          <Link href="/projects/uiux">
+          <Link className="w-full" href="/projects/uiux">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"

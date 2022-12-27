@@ -60,7 +60,7 @@ const Introduction = () => {
             <div className="row-span-1 flex justify-center items-center">
               <div
                 style={{ boxShadow: "-5px 5px #1F2833" }}
-                className="bg-[#171515] h-16 w-16 border-2 border-gray-900 m-4 flex justify-center items-center"
+                className="bg-[#171515] h-24 w-24 border-2 border-gray-900 flex m-4 justify-center items-center"
               >
                 <div className="h-3/5 w-3/5">
                   <a
@@ -76,7 +76,7 @@ const Introduction = () => {
             <div className="row-span-1 flex justify-center items-center">
               <div
                 style={{ boxShadow: "-5px 5px #1F2833" }}
-                className="bg-[#00B15D] h-16 w-16 border-2 border-gray-900  m-4 flex justify-center items-center"
+                className="bg-[#00B15D] h-24 w-24 border-2 border-gray-900  m-4 flex justify-center items-center"
               >
                 <div className="h-3/5 w-3/5">
                   <a
@@ -94,7 +94,7 @@ const Introduction = () => {
             <div className="row-span-1 flex justify-center items-center">
               <div
                 style={{ boxShadow: "-5px 5px #1F2833" }}
-                className="bg-[#C5C6C7] h-16 w-16 border-2 border-gray-900 m-4 flex justify-center items-center"
+                className="bg-[#C5C6C7] h-24 w-24 border-2 border-gray-900 m-4 flex justify-center items-center"
               >
                 <div className="h-3/5 w-3/5">
                   <a
@@ -110,7 +110,7 @@ const Introduction = () => {
             <div className="row-span-1 flex justify-center items-center">
               <div
                 style={{ boxShadow: "-5px 5px #1F2833" }}
-                className="bg-[#0A66C2] h-16 w-16 border-2 border-gray-900 m-4 flex justify-center items-center"
+                className="bg-[#0A66C2] h-24 w-24 border-2 border-gray-900 m-4 flex justify-center items-center"
               >
                 <div className="h-3/5 w-3/5">
                   <a
@@ -128,7 +128,7 @@ const Introduction = () => {
             <div className="row-span-1 flex justify-center items-center">
               <div
                 style={{ boxShadow: "-5px 5px #1F2833" }}
-                className="bg-[#E34033] h-16 w-16 border-2 border-gray-900 m-4 flex justify-center items-center"
+                className="bg-[#E34033] h-24 w-24 border-2 border-gray-900 m-4 flex justify-center items-center"
               >
                 <div className="h-3/5 w-3/5">
                   <a href="#" rel="noreferrer" target="_blank">
@@ -140,7 +140,7 @@ const Introduction = () => {
             <div className="row-span-1 flex justify-center items-center">
               <div
                 style={{ boxShadow: "-5px 5px #1F2833" }}
-                className="bg-[#FFA40F] h-16 w-16 border-2 border-gray-900 m-4 flex justify-center items-center"
+                className="bg-[#FFA40F] h-24 w-24 border-2 border-gray-900 m-4 flex justify-center items-center"
               >
                 <div className="h-2/4 w-2/4">
                   <a
