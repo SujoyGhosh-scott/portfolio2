@@ -6,8 +6,8 @@
 
 @font-face {
   font-family: "sg";
-  src: url("../asset/blowbrush/blowbrush.ttf");
-  /* src: url("../asset/Sedgwick_Ave/SedgwickAve-Regular.ttf"); */
+  /* src: url("../asset/blowbrush/blowbrush.ttf"); */
+  src: url("../asset/Sedgwick_Ave/SedgwickAve-Regular.ttf");
 }
 
 html,

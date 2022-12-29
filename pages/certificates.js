@@ -1,52 +1,14 @@
 import Link from "next/link";
-import React from "react";
-import Certificate from "../components/Certificates/Certificate";
-
-const ColWith1Cert = ({ certificate, from, title }) => {
-  return (
-    <div className="col-span-1 flex flex-col justify-center px-2">
-      <Certificate certificate={certificate} from={from} title={title} />
-    </div>
-  );
-};
-
-const ColWith2Cert = ({
-  certificate1,
-  from1,
-  title1,
-  certificate2,
-  from2,
-  title2,
-}) => {
-  return (
-    <div className="col-span-1 flex flex-col justify-center px-2">
-      <Certificate certificate={certificate1} from={from1} title={title1} />
-      <Certificate certificate={certificate2} from={from2} title={title2} />
-    </div>
-  );
-};
-
-const ColWith3Cert = ({
-  certificate1,
-  from1,
-  title1,
-  certificate2,
-  from2,
-  title2,
-  certificate3,
-  from3,
-  title3,
-}) => {
-  return (
-    <div className="col-span-1 flex flex-col justify-center px-2">
-      <Certificate certificate={certificate1} from={from1} title={title1} />
-      <Certificate certificate={certificate2} from={from2} title={title2} />
-      <Certificate certificate={certificate3} from={from3} title={title3} />
-    </div>
-  );
-};
+import React, { useState } from "react";
+import ColWith1Cert from "../components/Certificates/ColWith1Cert";
+import ColWith2Cert from "../components/Certificates/ColWith2Cert";
+import ColWith3Cert from "../components/Certificates/ColWith3Cert";
 
 const Certificates = () => {
+  const [selectedImage, setSelectedImage] = useState("");
+  const [provider, setProvider] = useState("");
+  const [selectedTitle, setSelectedTitle] = useState("");
+
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -80,6 +42,9 @@ const Certificates = () => {
             certificate="/certificates/digital-marketing.jpg"
             from="/certificates/google.png"
             title="Fundamentals of Digital Marketing"
+            setSelectedImage={setSelectedImage}
+            setProvider={setProvider}
+            setSelectedTitle={setSelectedTitle}
           />
           <ColWith2Cert
             certificate1="/certificates/flutter.png"
@@ -88,6 +53,9 @@ const Certificates = () => {
             from2="/certificates/udemy.webp"
             title1="Embeded Systems using 8051 Microcontroller"
             title2="Learn Flutter and Dart to create Android apps"
+            setSelectedImage={setSelectedImage}
+            setProvider={setProvider}
+            setSelectedTitle={setSelectedTitle}
           />
           <ColWith3Cert
             certificate1="/certificates/algo-ds.png"
@@ -99,19 +67,50 @@ const Certificates = () => {
             certificate3="/certificates/resp.png"
             title3="Responsive Web Design"
             from3="/certificates/freecodecamp.png"
+            setSelectedImage={setSelectedImage}
+            setProvider={setProvider}
+            setSelectedTitle={setSelectedTitle}
           />
           <ColWith2Cert
             certificate1="/certificates/flutter.png"
-            certificate2="/certificates/8051.png"
+            certificate2="/certificates/hosting.png"
             from1="/certificates/udemy.webp"
             from2="/certificates/udemy.webp"
             title1="Embeded Systems using 8051 Microcontroller"
-            title2="Learn Flutter and Dart to create Android apps"
+            title2="Introduction to Domain Name &amp; Web Hosting"
+            setSelectedImage={setSelectedImage}
+            setProvider={setProvider}
+            setSelectedTitle={setSelectedTitle}
           />
-          <ColWith1Cert />
+          <ColWith1Cert
+            setSelectedImage={setSelectedImage}
+            setProvider={setProvider}
+            setSelectedTitle={setSelectedTitle}
+          />
           <div className="col-span-1 hidden md:block" />
         </main>
       </main>
+
+      <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+      <div className="modal">
+        <div className="modal-box relative">
+          <label
+            htmlFor="my-modal-3"
+            className="btn btn-sm btn-circle absolute right-2 top-2"
+          >
+            ✕
+          </label>
+          <div className="flex items-center mb-6">
+            <img
+              src={provider}
+              className="h-8 w-8 mr-4 object-contain rounded-full"
+              alt=""
+            />
+            <p className="font-semibold">{selectedTitle}</p>
+          </div>
+          <img src={selectedImage} />
+        </div>
+      </div>
     </div>
   );
 };

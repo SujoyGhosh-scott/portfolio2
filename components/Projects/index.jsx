@@ -6,7 +6,7 @@ const Projects = () => {
     <div id="projects" className="grid grid-rows-4">
       <div className="pl-8 row-span-1 mb-8">
         <h1 className="blowbrush text-3xl font-normal bg-neutral w-fit mt-8">
-          my Projects
+          My Projects
         </h1>
         <p className="mt-2">Click on a card below to see all my projects</p>
       </div>

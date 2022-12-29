@@ -4,7 +4,7 @@ const Introduction = () => {
   return (
     <div id="intro" className="min-h-screen grid grid-cols-5">
       <div className="col-span-5 md:col-span-3 grid grid-rows-7">
-        <div className="row-span-3 px-12 md:px-16 md:pd-16 pt-12 pb-8 blowbrush">
+        <div className="row-span-3 px-12 md:px-16 md:pd-16 pt-12 pb-8 blowbrush flex flex-col justify-center">
           <h2 className="text-3xl">
             <span className="text-primary text-4xl">Hello!</span> I&apos;m
           </h2>
@@ -17,7 +17,7 @@ const Introduction = () => {
           <h2 className="text-3xl mb-4 blowbrush">
             A full-stack Web Developer
           </h2>
-          <p className="pr-0 lg:pr-24">
+          <p className="pr-0 lg:w-3/4">
             currently pursuing my masters&apos; majoring in Computer Sc from St.
             Xavier&apos;s College Kolkata, India. I&apos;m really passionate
             about Web Development and Looking for an opportunity to work as a

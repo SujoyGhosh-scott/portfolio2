@@ -61,28 +61,28 @@ const Tools = () => {
           </div>
           <div className="tooltip" data-tip="Tailwind">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/tailwind.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="Material UI">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 md:mt-0 mr-4 object-contain"
               src="/skills/material-ui.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="Bootstrap">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/bootstrap.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="Styled Components">
             <img
-              className="h-8 md:h-14 mt-4 md:mt-0 object-contain"
+              className="h-8 md:h-14 mt-6 md:mt-0 object-contain"
               src="/skills/styled-components.png"
               alt=""
             />
@@ -132,35 +132,35 @@ const Tools = () => {
           </div>
           <div className="tooltip" data-tip="Heroku">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/heroku.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="Netlify">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/netlify.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="Vercel">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/vercel.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="AWS Quicksight">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/quicksight.png"
               alt=""
             />
           </div>
           <div className="tooltip" data-tip="AWS Simple Email Service">
             <img
-              className="h-10 md:h-16 mt-4 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/ses.png"
               alt=""
             />
