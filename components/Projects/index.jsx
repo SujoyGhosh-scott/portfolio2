@@ -21,7 +21,7 @@ const Projects = () => {
               className="flex flex-col justify-center items-center text-center"
             >
               <h2 className="text-2xl blowbrush text-primary">Fontend</h2>
-              <p className="w-4/5">frontend projects using 3rd party APIs</p>
+              <p className="w-4/5">frontend projects using third party APIs</p>
             </div>
           </Link>
         </div>
@@ -49,7 +49,7 @@ const Projects = () => {
               className="flex flex-col justify-center items-center text-center"
             >
               <h2 className="text-2xl blowbrush text-primary">Node modules</h2>
-              <p className="w-4/5">Some of the node modules I made</p>
+              <p className="w-4/5">some of the my node modules</p>
             </div>
           </Link>
         </div>
@@ -57,13 +57,13 @@ const Projects = () => {
           style={{ transform: "skewX(-11deg)" }}
           className="col-span-2 md:col-span-1 flex items-center hover:text-primary bg-neutral-focus md:bg-base-100 border border-white border-opacity-50"
         >
-          <Link className="w-full" href="/projects/uiux">
+          <Link className="w-full" href="/projects/apps">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"
             >
-              <h2 className="text-2xl blowbrush text-primary">UI/UX</h2>
-              <p className="w-4/5">Some of the User Interfaces I designed</p>
+              <h2 className="text-2xl blowbrush text-primary">Apps</h2>
+              <p className="w-4/5">mobile Applications created using flutter</p>
             </div>
           </Link>
         </div>

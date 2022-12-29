@@ -34,7 +34,7 @@ const Certificates = () => {
       </div>
       <main className="px-0 md:px-24">
         <h1 className="text-2xl blowbrush text-center my-10 px-6">
-          Here&amp;s all of my certificates I&amp;ve earned in the past years
+          Here&apos;s all of my certificates I&apos;ve earned in the past years
         </h1>
         <main className="min-h-[80vh] grid grid-cols-2 md:grid-cols-7 px-4 -skew-x-0 md:-skew-x-12">
           <div className="col-span-1 hidden md:block" />

@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import ProjectCard from "../../components/Projects/ProjectCard";
 
-function Packages() {
+function Apps() {
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -47,4 +47,4 @@ function Packages() {
   );
 }
 
-export default Packages;
+export default Apps;
