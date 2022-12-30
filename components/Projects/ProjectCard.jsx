@@ -6,6 +6,7 @@ const ProjectCard = ({ bg, title, description, github, live }) => {
     >
       <div className="h-full w-full absolute bg-white bg-opacity-0 hover:bg-opacity-50 px-12 py-16">
         <div className="h-full w-full opacity-0 hover:opacity-90">
+          {/* <div className="h-full w-full hidden hover:block"> */}
           <p className="text-2xl font-semibold bg-neutral w-fit max-w-[4/5] text-primary blowbrush">
             This is the project title
           </p>
@@ -14,7 +15,7 @@ const ProjectCard = ({ bg, title, description, github, live }) => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <div className="flex justify-end">
+          <div className="flex">
             <div className="flex flex-col">
               <a
                 href="#"

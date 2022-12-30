@@ -155,7 +155,7 @@ const Introduction = () => {
             </div>
           </div>
           <div className="col-span-1">
-            <p className="blowbrush text-base-100 text-lg tracking-wide rotate-90 mt-12 md:mt-14">
+            <p className="blowbrush text-base-100 text-xl tracking-wide rotate-90 mt-20 md:mt-24">
               Get&nbsp;&nbsp;connected
             </p>
           </div>
