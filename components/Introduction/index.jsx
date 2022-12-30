@@ -51,7 +51,7 @@ const Introduction = () => {
         <div className="row-span-4 hidden md:flex justify-center items-end bg-accent">
           <img
             className="w-10/12 object-contain"
-            src="/introImage.png"
+            src="/introImage.jpg"
             alt="sujoy ghosh, web developer image"
           />
         </div>

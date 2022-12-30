@@ -14,10 +14,8 @@ const ContactMe = () => {
       </div>
       <div className="col-span-5 md:col-span-3 p-2 relative flex justify-center items-center">
         <form
-          onSubmit={(e) => {
-            e.preventDefault();
-            console.log("contact form submitted");
-          }}
+          action="https://formsubmit.co/2ad2c504e576b1d74790b5a0d8a3d3e0"
+          method="POST"
         >
           <div
             style={{ boxShadow: "-6px 6px #45a29e" }}
@@ -28,6 +26,7 @@ const ContactMe = () => {
             </label>
             <input
               type="text"
+              name="name"
               placeholder="Enter name"
               className="input input-bordered input-sm input-accent w-full rounded-none bg-neutral-focus"
             />
@@ -39,6 +38,8 @@ const ContactMe = () => {
             </label>
             <input
               type="email"
+              name="email"
+              required
               placeholder="Enter email"
               className="input input-bordered input-sm input-accent w-full rounded-none bg-neutral-focus"
             />
@@ -50,6 +51,8 @@ const ContactMe = () => {
             </label>
             <textarea
               type="text"
+              name="message"
+              required
               placeholder="Enter message"
               className="textarea textarea-accent w-full rounded-none bg-neutral-focus"
             />
