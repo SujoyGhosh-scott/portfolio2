@@ -30,14 +30,20 @@ function Frontend() {
         <h1 className="text-2xl blowbrush text-center my-8 md:my-10 px-6">
           Here&apos;s some of my frontend projects
         </h1>
-        <section className="grid grid-cols-2">
-          <ProjectCard bg="/projects/project1.png" />
-          <ProjectCard bg="/projects/project2.png" />
-          <ProjectCard bg="/projects/project3.png" />
-          <ProjectCard bg="/projects/project1.png" />
-          <ProjectCard bg="/projects/project2.png" />
-          <ProjectCard bg="/projects/project3.png" />
-          <ProjectCard bg="/projects/project1.png" />
+        <section className="grid grid-cols-2 min-h-[75vh]">
+          <ProjectCard
+            bg="/projects/space-info.jpg"
+            live="https://space-info.netlify.app/"
+            title="Space Info"
+            description="This is an educational website made using ReactJs, MUI and NASA open APIS to keep people updated about astronomical news and research works."
+          />
+          <ProjectCard
+            bg="/projects/game-of-life.jpg"
+            title="Game of life"
+            description="This is The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
+            live="https://sg-game-of-life.netlify.app/"
+            github="https://github.com/SujoyGhosh-scott/The-Game-of-Life-using-React"
+          />
         </section>
       </main>
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">

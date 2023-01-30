@@ -28,16 +28,22 @@ function FullStack() {
       </div>
       <main className="px-0 md:px-64 mb-4">
         <h1 className="text-2xl blowbrush text-center my-8 md:my-10 px-6">
-          Here&apos;s some of my frontend projects
+          Here&apos;s some of my Full-Stack projects
         </h1>
-        <section className="grid grid-cols-2">
-          <ProjectCard bg="/projects/project1.png" />
-          <ProjectCard bg="/projects/project2.png" />
-          <ProjectCard bg="/projects/project3.png" />
-          <ProjectCard bg="/projects/project1.png" />
-          <ProjectCard bg="/projects/project2.png" />
-          <ProjectCard bg="/projects/project3.png" />
-          <ProjectCard bg="/projects/project1.png" />
+        <section className="grid grid-cols-2 min-h-[75vh]">
+          <ProjectCard
+            bg="/projects/aesthetic.jpg"
+            live="https://aesthetic-codebase.vercel.app/"
+            title="Aesthetic Products"
+            description="This is an e-commerce website to sell herbal products made using NextJs, MongoDB, tailwindCSS and hosted on Vercel."
+          />
+          <ProjectCard
+            bg="/projects/attendance-tracker.jpg"
+            title="Attendance Tracker"
+            description="Attendance percentage tracking website for students made using NextJs, Daisy UI, mongodb and hosted on Netlify."
+            live="https://track-attendance.netlify.app/"
+            github="https://github.com/SujoyGhosh-scott/The-Game-of-Life-using-React"
+          />
         </section>
       </main>
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">

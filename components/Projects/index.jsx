@@ -15,7 +15,7 @@ const Projects = () => {
           style={{ transform: "skewX(-11deg)" }}
           className="col-span-2 md:col-span-1 flex items-center hover:text-primary bg-neutral-focus border border-white border-opacity-50 relative"
         >
-          <Link href="/projects/frontend" className="w-full">
+          <Link href="/projects/frontend" className="w-full z-20">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"
@@ -26,7 +26,7 @@ const Projects = () => {
           </Link>
           <div
             style={{ transform: "skewX(11deg)", opacity: 0.5 }}
-            className="absolute bottom-0"
+            className="absolute bottom-0 z-10"
           >
             <img
               className="w-[85%] object-contain"
@@ -39,7 +39,7 @@ const Projects = () => {
           style={{ transform: "skewX(-11deg)" }}
           className="relative col-span-2 md:col-span-1 flex items-center hover:text-primary bg-base-100 border border-white border-opacity-50"
         >
-          <Link href="/projects/full-stack" className="w-full">
+          <Link href="/projects/full-stack" className="w-full z-20">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="w-full flex flex-col items-center"
@@ -50,7 +50,7 @@ const Projects = () => {
           </Link>
           <div
             style={{ transform: "skewX(11deg)", opacity: 0.5 }}
-            className="absolute bottom-0"
+            className="absolute bottom-0 z-10"
           >
             <img
               className="w-full object-contain"
@@ -63,7 +63,7 @@ const Projects = () => {
           style={{ transform: "skewX(-11deg)" }}
           className="relative col-span-2 md:col-span-1 flex items-center hover:text-primary bg-base-100 md:bg-neutral-focus border border-white border-opacity-50"
         >
-          <Link href="/projects/packages" className="w-full">
+          <Link href="/projects/packages" className="w-full z-20">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"
@@ -74,7 +74,7 @@ const Projects = () => {
           </Link>
           <div
             style={{ transform: "skewX(11deg)", opacity: 0.5 }}
-            className="absolute bottom-0"
+            className="absolute bottom-0 z-10"
           >
             <img
               className="w-[85%] object-contain"
@@ -87,7 +87,7 @@ const Projects = () => {
           style={{ transform: "skewX(-11deg)" }}
           className="relative overflow-hidden col-span-2 md:col-span-1 flex items-center hover:text-primary bg-neutral-focus md:bg-base-100 border border-white border-opacity-50"
         >
-          <Link className="w-full" href="/projects/apps">
+          <Link className="w-full z-20" href="/projects/apps">
             <div
               style={{ transform: "skewX(11deg)" }}
               className="flex flex-col justify-center items-center text-center"
@@ -98,7 +98,7 @@ const Projects = () => {
           </Link>
           <div
             style={{ transform: "skewX(11deg)", opacity: 0.5 }}
-            className="absolute bottom-0"
+            className="absolute bottom-0 z-10"
           >
             <img
               className="w-full object-contain"
