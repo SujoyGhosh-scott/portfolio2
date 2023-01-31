@@ -44,6 +44,12 @@ function FullStack() {
             live="https://track-attendance.netlify.app/"
             github="https://github.com/SujoyGhosh-scott/The-Game-of-Life-using-React"
           />
+          <ProjectCard
+            bg="/projects/crypto.jpg"
+            title="Crypto Predictor"
+            description="This website helps to keep people updated about the crypto world. It shows live values of different cryptocurrencies and makes a 24hr price prediction, along with this users can read news about the crypto world."
+            live="https://crypto-predictor-staging.netlify.app/"
+          />
         </section>
       </main>
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">

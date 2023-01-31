@@ -44,6 +44,11 @@ function Frontend() {
             live="https://sg-game-of-life.netlify.app/"
             github="https://github.com/SujoyGhosh-scott/The-Game-of-Life-using-React"
           />
+          <ProjectCard
+            bg="/projects/typing.jpg"
+            title="Typing Test"
+            description="This is a basic typing test website made using ReactJs and MUI"
+          />
         </section>
       </main>
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">
