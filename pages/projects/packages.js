@@ -28,17 +28,9 @@ function Packages() {
       </div>
       <main className="px-0 md:px-64 mb-4">
         <h1 className="text-2xl blowbrush text-center my-8 md:my-10 px-6">
-          Here&apos;s some of my frontend projects
+          No modules published yet
         </h1>
-        <section className="grid grid-cols-2">
-          <ProjectCard bg="/projects/project1.png" />
-          <ProjectCard bg="/projects/project2.png" />
-          <ProjectCard bg="/projects/project3.png" />
-          <ProjectCard bg="/projects/project1.png" />
-          <ProjectCard bg="/projects/project2.png" />
-          <ProjectCard bg="/projects/project3.png" />
-          <ProjectCard bg="/projects/project1.png" />
-        </section>
+        <section className="grid grid-cols-2"></section>
       </main>
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">
         Made by <span className="text-primary">@sujoy</span>

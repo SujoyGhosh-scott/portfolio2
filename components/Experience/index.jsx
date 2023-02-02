@@ -255,14 +255,16 @@ const Experience = () => {
               />
               <p className="text-sm">CI/CD with GitHub Actions</p>
             </div>
-            <img src="/certificates/digital-marketing.jpg" className="mb-2" />
+            <img src="/certificates/hosting.png" className="mb-2" />
             <div className="flex items-center mb-6">
               <img
-                src="/certificates/google.png"
+                src="/certificates/udemy.webp"
                 className="h-7 w-7 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">Fundamentals of Digital Marketing</p>
+              <p className="text-sm">
+                Introduction to domain name and web hosting
+              </p>
             </div>
             <div className="block md:hidden">
               <img src="/certificates/flutter.png" className="mb-2" />

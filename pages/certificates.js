@@ -39,9 +39,9 @@ const Certificates = () => {
         <main className="min-h-[80vh] grid grid-cols-2 md:grid-cols-7 px-4 -skew-x-0 md:-skew-x-12">
           <div className="col-span-1 hidden md:block" />
           <ColWith1Cert
-            certificate="/certificates/digital-marketing.jpg"
-            from="/certificates/google.png"
-            title="Fundamentals of Digital Marketing"
+            certificate="/certificates/three.png"
+            from="/certificates/udemy.webp"
+            title="Three.js tutorial"
             setSelectedImage={setSelectedImage}
             setProvider={setProvider}
             setSelectedTitle={setSelectedTitle}
