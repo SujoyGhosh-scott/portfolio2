@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import ColWith1Cert from "../components/Certificates/ColWith1Cert";
 import ColWith2Cert from "../components/Certificates/ColWith2Cert";
 import ColWith3Cert from "../components/Certificates/ColWith3Cert";
+import Head from "next/head";
 
 const Certificates = () => {
   const [selectedImage, setSelectedImage] = useState("");
@@ -11,6 +12,14 @@ const Certificates = () => {
 
   return (
     <div>
+      <Head>
+        <title>certificates | Sujoy Ghosh</title>
+        <meta
+          name="description"
+          content="all the certificates of Sujoy Ghosh"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="navbar bg-base-100">
         <Link href="/">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">

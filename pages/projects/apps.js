@@ -1,10 +1,19 @@
 import Link from "next/link";
 import React from "react";
 import ProjectCard from "../../components/Projects/ProjectCard";
+import Head from "next/head";
 
 function Apps() {
   return (
     <div>
+      <Head>
+        <title>apps | Sujoy Ghosh</title>
+        <meta
+          name="description"
+          content="all the mobile app side projects created by Sujoy Ghosh"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div className="navbar bg-base-100">
         <Link href="/">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">
