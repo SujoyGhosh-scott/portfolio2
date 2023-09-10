@@ -18,10 +18,11 @@ const Introduction = () => {
             A full-stack Web Developer
           </h2>
           <p className="pr-0 lg:w-3/4">
-            Currently pursuing masters in Computer Science from St.
-            Xavier&apos;s College Kolkata. I&apos;m really passionate about web
-            development and blockchain. I want to use my skills and knowledge to
-            develop applications that can impact people&apos;s lives.
+            A Masters&apos;s in Computer Science and a Full Stack Web Developer.
+            I&apos;m really passionate about web development and always
+            exploring new tools and trying to sharpen my skills. I want to use
+            my skills and knowledge to develop applications that can impact
+            people&apos;s lives.
           </p>
 
           <a

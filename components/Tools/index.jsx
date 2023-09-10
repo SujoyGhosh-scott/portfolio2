@@ -17,70 +17,104 @@ const Tools = () => {
           style={{ boxShadow: "-5px 5px #45a29e" }}
           className="border-2 bg-neutral border-accent p-4 relative flex flex-wrap items-center mb-6"
         >
-          <div className="tooltip" data-tip="HTML5">
+          <div className="tooltip tooltip-info tooltip-bottom" data-tip="HTML5">
             <img
               className="h-10 md:h-16 mr-1 object-contain"
               src="/skills/html.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="CSS3">
+          <div className="tooltip tooltip-info tooltip-bottom" data-tip="CSS3">
             <img
               className="h-10 md:h-16 mr-1 object-contain"
               src="/skills/css.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="JavaScript">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="JavaScript"
+          >
             <img
               className="h-10 md:h-16 mr-3 object-contain"
               src="/skills/js.svg"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="TypeScript">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="TypeScript"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/typescript.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="ReactJs">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="ReactJs"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/reactjs.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Next.js">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Next.js"
+          >
             <img
               className="h-8 md:h-14 mr-4 object-contain"
               src="/skills/nextjs.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Tailwind">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Flutter"
+          >
+            <img
+              className="h-8 md:h-14 mr-4 object-contain"
+              src="/skills/flutter.png"
+              alt=""
+            />
+          </div>
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Tailwind"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/tailwind.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Material UI">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Material UI"
+          >
             <img
-              className="h-10 md:h-16 mt-6 md:mt-0 md:mt-0 mr-4 object-contain"
+              className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/material-ui.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Bootstrap">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Bootstrap"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/bootstrap.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Styled Components">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Styled Components"
+          >
             <img
               className="h-8 md:h-14 mt-6 md:mt-0 object-contain"
               src="/skills/styled-components.png"
@@ -95,73 +129,120 @@ const Tools = () => {
           style={{ boxShadow: "-5px 5px #45a29e" }}
           className="border-2 bg-neutral border-accent p-4 relative flex flex-wrap items-center mb-6"
         >
-          <div className="tooltip" data-tip="Node.js">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Node.js"
+          >
             <img
               className="h-12 md:h-18 mr-3 object-contain"
               src="/skills/nodejs.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Express">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Express"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/express.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="GraphQL">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="GraphQL"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/graphql.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="MongoDB">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="MongoDB"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/mongodb.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="MySQL">
+          <div className="tooltip tooltip-info tooltip-bottom" data-tip="MySQL">
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/mysql.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Heroku">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Docker"
+          >
+            <img
+              className="h-10 md:h-14 mr-4 object-contain"
+              src="/skills/docker.png"
+              alt=""
+            />
+          </div>
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Heroku"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/heroku.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Netlify">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Netlify"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/netlify.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Vercel">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Vercel"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/vercel.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="AWS Quicksight">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="AWS Quicksight"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/quicksight.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="AWS Simple Email Service">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="AWS Simple Email Service"
+          >
             <img
               className="h-10 md:h-16 mt-6 md:mt-0 mr-4 object-contain"
               src="/skills/ses.png"
+              alt=""
+            />
+          </div>
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="AWS Simple Storage Service"
+          >
+            <img
+              className="h-8 md:h-14 mt-6 md:mt-0 mr-4 object-contain"
+              src="/skills/s3.png"
               alt=""
             />
           </div>
@@ -175,35 +256,44 @@ const Tools = () => {
           style={{ boxShadow: "-5px 5px #45a29e" }}
           className="border-2 bg-neutral border-accent p-4 relative flex items-center flex-wrap"
         >
-          <div className="tooltip" data-tip="Figma">
+          <div className="tooltip tooltip-info tooltip-bottom" data-tip="Figma">
             <img
               className="h-8 md:h-14 mr-4 object-contain"
               src="/skills/figma.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Canva">
+          <div className="tooltip tooltip-info tooltip-bottom" data-tip="Canva">
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/canva.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="WordPress">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="WordPress"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/wordpress.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="Python">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="Python"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/python.png"
               alt=""
             />
           </div>
-          <div className="tooltip" data-tip="C programming">
+          <div
+            className="tooltip tooltip-info tooltip-bottom"
+            data-tip="C programming"
+          >
             <img
               className="h-10 md:h-16 mr-4 object-contain"
               src="/skills/c.png"

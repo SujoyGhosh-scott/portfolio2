@@ -39,7 +39,7 @@ const Experience = () => {
               Jun, 23 to Present
             </time>
             <div
-              className="bg-neutral p-2 h-16 w-4/5 border-2 border-[#007BE5] flex"
+              className="bg-neutral p-2 h-20 w-4/5 border-2 border-[#007BE5] flex"
               style={{ boxShadow: "-5px 5px #66fcf1" }}
             >
               <img
@@ -52,7 +52,8 @@ const Experience = () => {
                   Wellness Connection
                 </h3>
                 <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Software Engineer
+                  Full time Software Engineer at Wellness Connection, previously
+                  known as Yubi Health.
                 </p>
               </div>
             </div>
@@ -74,7 +75,7 @@ const Experience = () => {
               </svg>
             </div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Aug, 21 to Apr, 23
+              Aug, 21 to Jun, 23
             </time>
             <div
               className="bg-neutral p-2 h-20 w-4/5 border-2 border-accent flex"
@@ -111,7 +112,7 @@ const Experience = () => {
               </svg>
             </div>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Jun, 22 to Present
+              Jun, 22 to May, 23
             </time>
             <div
               className="bg-neutral p-2 h-16 w-4/5 border-2 border-[#007BE5] flex"
@@ -125,7 +126,7 @@ const Experience = () => {
               <div className="flex-1">
                 <h3 className="font-semibold dark:text-white">Yubi Health</h3>
                 <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Software Engineer
+                  Part time Software Engineer
                 </p>
               </div>
             </div>
