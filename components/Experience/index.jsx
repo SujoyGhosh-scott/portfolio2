@@ -39,7 +39,7 @@ const Experience = () => {
               Jun, 23 to Present
             </time>
             <div
-              className="bg-neutral p-2 h-20 w-4/5 border-2 border-[#007BE5] flex"
+              className="bg-neutral p-2 h-24 w-4/5 border-2 border-[#007BE5] flex"
               style={{ boxShadow: "-5px 5px #66fcf1" }}
             >
               <img
@@ -126,7 +126,7 @@ const Experience = () => {
               <div className="flex-1">
                 <h3 className="font-semibold dark:text-white">Yubi Health</h3>
                 <p className="mb-4 text-sm font-normal text-gray-500 dark:text-gray-400">
-                  Part time Software Engineer
+                  Software Engineer
                 </p>
               </div>
             </div>
