@@ -85,7 +85,17 @@ const HomeLayout = ({ children }) => {
                   document.getElementById("my-drawer-2").click();
                 }}
               >
-                Projects
+                Client Projects
+              </a>
+            </li>
+            <li className="text-sm">
+              <a
+                href="#projects"
+                onClick={() => {
+                  document.getElementById("my-drawer-2").click();
+                }}
+              >
+                Personal Projects
               </a>
             </li>
             <li className="text-sm">

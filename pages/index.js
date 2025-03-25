@@ -1,3 +1,4 @@
+import ClientProjects from "../components/ClientProjects";
 import ContactMe from "../components/Contact";
 import Experience from "../components/Experience";
 import Introduction from "../components/Introduction";
@@ -11,6 +12,7 @@ export default function Home() {
       <Introduction />
       <Tools />
       <Experience />
+      {/* <ClientProjects /> */}
       <Projects />
       <ContactMe />
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">
