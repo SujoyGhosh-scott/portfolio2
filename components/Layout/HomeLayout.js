@@ -80,7 +80,7 @@ const HomeLayout = ({ children }) => {
             </li>
             <li className="text-sm">
               <a
-                href="#projects"
+                href="#client-projects"
                 onClick={() => {
                   document.getElementById("my-drawer-2").click();
                 }}

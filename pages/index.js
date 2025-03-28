@@ -12,7 +12,7 @@ export default function Home() {
       <Introduction />
       <Tools />
       <Experience />
-      {/* <ClientProjects /> */}
+      <ClientProjects />
       <Projects />
       <ContactMe />
       <footer className="border-t border-gray-100 border-opacity-10 text-center text-sm p-1 font-mono">
