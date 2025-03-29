@@ -7,7 +7,7 @@ const projects = [
     description:
       "A website for photographers to showcase their work through online exhibitions, sell their work, and share their stories via a blogging system. Includes a custom admin panel for content control.",
     tags: ["ReactJs", "Tailwind", "NodeJs", "MySQL", "VPS"],
-    image: "/client-project/artandbeyond.png"
+    image: "/client-project/artandbeyond.png",
   },
   {
     name: "BestKorsBuddy",
@@ -15,7 +15,7 @@ const projects = [
     description:
       "A platform for users to explore reviews of courses and books recommended by popular YouTubers.",
     tags: ["NextJs", "Tailwind", "Sanity"],
-    image: "/client-project/bestkorsbuddy.png"
+    image: "/client-project/bestkorsbuddy.png",
   },
   {
     name: "Creative Nuances",
@@ -23,7 +23,7 @@ const projects = [
     description:
       "A clothing e-commerce store with a payment gateway, courier service integration, and an admin panel for managing products, orders, and site content.",
     tags: ["NextJs", "Tailwind", "Strapi", "MySQL", "Docker", "Digital Ocean"],
-    image: "/client-project/creativenuances.png"
+    image: "/client-project/creativenuances.png",
   },
   {
     name: "Phenix Labs",
@@ -31,7 +31,7 @@ const projects = [
     description:
       "Company website for an IoT-based company to showcase projects and offer IoT courses via a sub-brand website.",
     tags: ["NextJs", "Tailwind", "Sanity"],
-    image: "/client-project/phenixlabs.png"
+    image: "/client-project/phenixlabs.png",
   },
   {
     name: "Perizia",
@@ -39,7 +39,7 @@ const projects = [
     description:
       "Websites developed for various college fests, managing registrations, payments, chat functionality, event history, and more.",
     tags: ["NextJs", "Tailwind"],
-    image: "/client-project/perizia.png"
+    image: "/client-project/perizia.png",
   },
   {
     name: "Crux",
@@ -47,7 +47,7 @@ const projects = [
     description:
       "Websites developed for various college fests, managing registrations, payments, chat functionality, event history, and more.",
     tags: ["NextJs", "Tailwind"],
-    image: "/client-project/crux.png"
+    image: "/client-project/crux.png",
   },
   {
     name: "Phenix Labs Learning",
@@ -55,7 +55,7 @@ const projects = [
     description:
       "Company website for an IoT-based company to showcase projects and offer IoT courses via a sub-brand website.",
     tags: ["NextJs", "Tailwind", "Sanity"],
-    image: "/client-project/phenixlabs-learn.png"
+    image: "/client-project/phenixlabs-learn.png",
   },
   {
     name: "World Harvest Prayer House",
@@ -63,7 +63,7 @@ const projects = [
     description:
       "A website for a charitable foundation to showcase their work, provide communication channels, and accept donations.",
     tags: ["NextJs", "Tailwind"],
-    image: "/client-project/whph.png"
+    image: "/client-project/whph.png",
   },
   {
     name: "Billing System for a Jewellery Shop",
@@ -113,9 +113,16 @@ const ClientProjects = () => {
           return (
             <div key={index} className="flex flex-col gap-2">
               {/* Placeholder Image */}
-              {project.image ? <div className="w-full rounded-sm">
-                <img style={{ boxShadow: "-5px 5px #66fcf1" }} src={project.image} alt={project.name} className="rounded-sm w-11/12 object-contain border border-4 border-[#007BE5]"  />
-              </div>:null}
+              {project.image ? (
+                <div className="w-full rounded-sm">
+                  <img
+                    style={{ boxShadow: "-5px 5px #66fcf1" }}
+                    src={project.image}
+                    alt={project.name}
+                    className="rounded-sm w-11/12 object-contain border-4 border-[#007BE5] ml-1.5"
+                  />
+                </div>
+              ) : null}
 
               {/* Site Type */}
               <p className="text-xs text-gray-500 mt-3">{project.type}</p>

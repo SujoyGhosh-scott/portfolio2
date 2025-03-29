@@ -1,7 +1,65 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
+import { ClientsIcon, ContactIcon, JobIcon, ToolsIcon } from "../icons";
+
+const sections = [
+  { id: "intro", label: "Introduction" },
+  { id: "education", label: "Education, experiences and courses" },
+  { id: "client-projects", label: "Client Projects" },
+  { id: "tools", label: "Languages and tools" },
+  { id: "contact", label: "Contact me" },
+];
+
+const MobileDockIcon = ({ Icon, text, link, isActive }) => {
+  return (
+    <a href={link}>
+      <div className="flex flex-col justify-center">
+        <Icon
+          givenClass={`h-6 ${isActive ? "text-primary" : "text-gray-400"}`}
+        />
+        <p
+          className={`text-xs mt-2 ${
+            isActive ? "text-primary font-bold" : "text-gray-400"
+          }`}
+        >
+          {text}
+        </p>
+      </div>
+    </a>
+  );
+};
 
 const HomeLayout = ({ children }) => {
+  const [activeSection, setActiveSection] = useState("");
+
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5, // 50% visibility
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    }, observerOptions);
+
+    sections.forEach((section) => {
+      const el = document.getElementById(section.id);
+      if (el) observer.observe(el);
+    });
+
+    return () => {
+      sections.forEach((section) => {
+        const el = document.getElementById(section.id);
+        if (el) observer.unobserve(el);
+      });
+    };
+  }, []);
+
   return (
     <div>
       <Head>
@@ -13,103 +71,60 @@ const HomeLayout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* desktop sidebar */}
       <div className="drawer drawer-mobile">
-        <input
-          id="my-drawer-2"
-          onChange={(e) => console.log(e.target.value)}
-          type="checkbox"
-          className="drawer-toggle"
-        />
-        <div className="drawer-content">
-          <label
-            htmlFor="my-drawer-2"
-            className="btn btn-sm btn-neutral drawer-button lg:hidden fixed top-2 right-2"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-8 h-8"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
-              />
-            </svg>
-          </label>
-          {children}
-        </div>
+        <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content">{children}</div>
         <div className="drawer-side py-6 w-[50vw] md:w-[15vw]">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
           <ul className="menu p-2 bg-base-100 text-base-content ml-0 md:ml-10 border-l border-opacity-40 border-gray-600">
-            <li className="text-sm">
-              <a
-                href="#intro"
-                onClick={() => {
-                  document.getElementById("my-drawer-2").click();
-                }}
-              >
-                Introduction
-              </a>
-            </li>
-            <li className="text-sm">
-              <a
-                href="#tools"
-                onClick={() => {
-                  document.getElementById("my-drawer-2").click();
-                }}
-              >
-                Languages <br />
-                and tools
-              </a>
-            </li>
-            <li className="text-sm">
-              <a
-                href="#education"
-                onClick={() => {
-                  document.getElementById("my-drawer-2").click();
-                }}
-              >
-                Education, <br />
-                experiences and <br />
-                courses
-              </a>
-            </li>
-            <li className="text-sm">
-              <a
-                href="#client-projects"
-                onClick={() => {
-                  document.getElementById("my-drawer-2").click();
-                }}
-              >
-                Client Projects
-              </a>
-            </li>
-            <li className="text-sm">
-              <a
-                href="#projects"
-                onClick={() => {
-                  document.getElementById("my-drawer-2").click();
-                }}
-              >
-                Personal Projects
-              </a>
-            </li>
-            <li className="text-sm">
-              <a
-                href="#contact"
-                onClick={() => {
-                  document.getElementById("my-drawer-2").click();
-                }}
-              >
-                Contact me
-              </a>
-            </li>
+            {sections.map((section) => (
+              <li key={section.id} className="text-sm">
+                <a
+                  href={`#${section.id}`}
+                  className={`${
+                    activeSection === section.id
+                      ? "font-bold text-primary"
+                      : "text-gray-500"
+                  }`}
+                  onClick={() => {
+                    document.getElementById("my-drawer-2").click();
+                  }}
+                >
+                  {section.label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
+      </div>
+
+      {/* drawer mobile dock */}
+      <div className="py-2 pt-3 fixed bottom-0 w-full bg-[#1F2833] flex md:hidden justify-around">
+        <MobileDockIcon
+          Icon={JobIcon}
+          text="Experience"
+          link="#education"
+          isActive={activeSection === "education"}
+        />
+        <MobileDockIcon
+          Icon={ClientsIcon}
+          text="Clients"
+          link="#client-projects"
+          isActive={activeSection === "client-projects"}
+        />
+        <MobileDockIcon
+          Icon={ToolsIcon}
+          text="Tools"
+          link="#tools"
+          isActive={activeSection === "tools"}
+        />
+        <MobileDockIcon
+          Icon={ContactIcon}
+          text="Contact"
+          link="#contact"
+          isActive={activeSection === "contact"}
+        />
       </div>
     </div>
   );
