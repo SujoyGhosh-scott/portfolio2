@@ -1,8 +1,9 @@
 import React from "react";
+import ContactForm2 from "./ContactForm2";
 
 const ContactMe = () => {
   return (
-    <div id="contact" className="min-h-[90vh] grid grid-cols-5">
+    <div id="contact" className="min-h-[90vh] grid grid-cols-5 pb-32 md:pb-0">
       <div className="col-span-5 md:col-span-2 p-2 flex flex-col justify-center pl-8">
         <h2 className="blowbrush text-3xl bg-neutral w-fit mb-3">Contact me</h2>
         <p className="w-4/5">
@@ -13,60 +14,7 @@ const ContactMe = () => {
         </p>
       </div>
       <div className="col-span-5 md:col-span-3 p-2 relative flex justify-center items-center">
-        <form
-          action="https://formsubmit.co/2ad2c504e576b1d74790b5a0d8a3d3e0"
-          method="POST"
-        >
-          <div
-            style={{ boxShadow: "-6px 6px #45a29e" }}
-            className="form-control border-2 border-black bg-neutral p-5 w-full max-w-xs mb-20 md:mb-0"
-          >
-            <label className="label">
-              <span className="label-text text-xs">Name</span>
-            </label>
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter name"
-              className="input input-bordered input-sm input-accent w-full rounded-none bg-neutral-focus"
-            />
-            {/* <label className="label">
-              <span className="label-text-alt">Alt label</span>
-            </label> */}
-            <label className="label mt-2">
-              <span className="label-text text-xs">Email *</span>
-            </label>
-            <input
-              type="email"
-              name="email"
-              required
-              placeholder="Enter email"
-              className="input input-bordered input-sm input-accent w-full rounded-none bg-neutral-focus"
-            />
-            {/* <label className="label">
-              <span className="label-text-alt">Alt label</span>
-            </label> */}
-            <label className="label mt-2">
-              <span className="label-text text-xs">Message *</span>
-            </label>
-            <textarea
-              type="text"
-              name="message"
-              required
-              placeholder="Enter message"
-              className="textarea textarea-accent w-full rounded-none bg-neutral-focus"
-            />
-            {/* <label className="label">
-              <span className="label-text-alt">Alt label</span>
-            </label> */}
-            <button
-              className="normal-case btn btn-accent rounded-none border border-black mt-6 btn-sm hover:scale-105 text-base-100 mb-4"
-              style={{ boxShadow: "-3px 3px #66fcf1" }}
-            >
-              Submit
-            </button>
-          </div>
-        </form>
+        <ContactForm2 />
         <a
           href="#intro"
           className="btn btn-primary btn-md normal-case rounded-full absolute bottom-2 right-4 group/edit group/item ease-in-out duration-100"
@@ -78,9 +26,9 @@ const ContactMe = () => {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            strokeWidth={1.5}
+            strokeWidth={3}
             stroke="currentColor"
-            className="w-5 h-5"
+            className="h-5"
           >
             <path
               strokeLinecap="round"

@@ -137,7 +137,7 @@ const ClientProjects = () => {
                 {project.tags.map((tag, idx) => (
                   <span
                     key={idx}
-                    className="text-xs bg-gray-200 px-2 py-0.5 rounded-sm bg-[#007BE5]"
+                    className="text-xs px-2 py-0.5 rounded-sm bg-[#007BE5]"
                   >
                     {tag}
                   </span>
