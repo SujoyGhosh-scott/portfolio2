@@ -125,7 +125,7 @@ const Experience = () => {
           <Link href="/certificates">
             <button
               style={{ boxShadow: "-5px 5px #66FCF1" }}
-              className="btn btn-accent btn-md normal-case rounded-full hover:scale-105 text-lg border-2 border-black"
+              className="btn btn-md bg-neutral rounded-sm mt-10 border-2 border-gray-400"
             >
               See all certificates
               <svg

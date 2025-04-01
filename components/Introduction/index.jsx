@@ -4,19 +4,17 @@ const Introduction = () => {
   return (
     <div id="intro" className="min-h-screen grid grid-cols-5">
       <div className="col-span-5 md:col-span-3 grid grid-rows-7">
-        <div className="row-span-3 px-12 md:px-16 md:pd-16 pt-12 pb-8 blowbrush flex flex-col justify-center">
-          <h2 className="text-3xl">
-            <span className="text-primary text-4xl">Hello!</span> I&apos;m
+        <div className="row-span-3 px-12 md:px-16 md:pd-16 pt-12 pb-8 flex flex-col justify-center">
+          <h2 className="text-3xl font-normal">
+            <span className="text-primary text-4xl blowbrush">Hello!</span>{" "}
+            I&apos;m
           </h2>
-          <h1 className="text-6xl text-primary">
-            SUJOY
-            <br /> &nbsp;&nbsp;&nbsp;GHOSH
-          </h1>
-        </div>
-        <div className="row-span-4 bg-neutral px-12 md:px-16 pt-8 pb-12">
-          <h2 className="text-3xl mb-4 blowbrush">
+          <h1 className="text-6xl text-primary blowbrush">SUJOY</h1>
+          <h2 className="text-2xl mb-4 blowbrush font-normal">
             A full-stack Web Developer
           </h2>
+        </div>
+        <div className="row-span-4 bg-neutral px-12 md:px-16 pt-8 pb-12">
           <p className="pr-0 lg:w-3/4">
             A Masters&apos;s in Computer Science and a Full Stack Web Developer.
             I&apos;m really passionate about web development and always
@@ -25,27 +23,22 @@ const Introduction = () => {
             people&apos;s lives.
           </p>
 
-          <a
-            href="#contact"
-            className="btn btn-md btn-accent text-lg font-semibold rounded-full mt-10 normal-case border-2 border-gray-900 text-gray-900 hover:scale-105"
-            style={{ boxShadow: "-5px 5px #66FCF1" }}
-          >
-            Drop a message
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-5 h-5 ml-4"
+          <div className="flex flex-wrap gap-6">
+            <a
+              href="#contact"
+              className="btn btn-md bg-[#171515] rounded-sm mt-10 border-2 border-gray-400"
+              style={{ boxShadow: "-5px 5px #007BE5" }}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-              />
-            </svg>
-          </a>
+              See Previous Projects
+            </a>
+            <a
+              href="#contact"
+              className="btn btn-md bg-[#171515] rounded-sm mt-10 border-2 border-gray-400"
+              style={{ boxShadow: "-5px 5px #007BE5" }}
+            >
+              Drop a message
+            </a>
+          </div>
         </div>
       </div>
       <div className="col-span-5 md:col-span-2 grid grid-rows-6">

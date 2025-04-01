@@ -5,7 +5,7 @@ const ContactForm2 = () => {
     <form
       action="https://formsubmit.co/2ad2c504e576b1d74790b5a0d8a3d3e0"
       method="POST"
-      className="border-4 border-[#007BE5] rounded-sm p-6 pt-4 bg-neutral w-72 mt-8 md:mt-0"
+      className="border-4 border-[#007BE5] rounded-sm p-6 pt-4 bg-neutral w-80 mt-8 md:mt-0"
       style={{ boxShadow: "-8px 8px #45a29e" }}
     >
       <div className="form-control w-full max-w-xs">
