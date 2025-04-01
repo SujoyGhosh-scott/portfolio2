@@ -14,7 +14,8 @@ const ExperienceTimeline2 = () => {
       link: "https://indpro.se/",
     },
     {
-      certificateLink: "",
+      certificateLink:
+        "https://drive.google.com/file/d/1XEEITla8Pu_7r0eKmRaXyFixOsmcXQuC/view?usp=sharing",
       duration: "Jun, 23 to Jan, 25",
       title: "Software Engineer at Wellness Connection",
       logo: "/experience/wc.png",
@@ -33,7 +34,8 @@ const ExperienceTimeline2 = () => {
       link: "https://www.sxccal.edu/",
     },
     {
-      certificateLink: "",
+      certificateLink:
+        "https://drive.google.com/file/d/1XEEITla8Pu_7r0eKmRaXyFixOsmcXQuC/view?usp=sharing",
       duration: "Jun, 22 to May, 23",
       title: "Software Engineer Intern at YubiHealth",
       logo: "/experience/yubi-health.png",
@@ -52,7 +54,8 @@ const ExperienceTimeline2 = () => {
       link: "https://www.linkedin.com/company/whales-network?trk=public_profile_experience-item_profile-section-card_subtitle-click",
     },
     {
-      certificateLink: "",
+      certificateLink:
+        "https://drive.google.com/file/d/1WQyM4MIw_YsN4Mft0nI7ifUjWr6H52Pv/view?usp=sharing",
       duration: "Feb, 21 to Dec, 21",
       title: "Software Engineer Intern at Support Genie",
       logo: "/experience/support-genie.png",

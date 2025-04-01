@@ -49,11 +49,20 @@ const TimeLineItem = ({
             ) : null}
             {description && expandedIndex === index ? (
               <p
-                className="text-xs text-gray-400 font-thin pb-2"
+                className="text-xs text-gray-400 font-light pb-2"
                 dangerouslySetInnerHTML={{ __html: description }}
               ></p>
             ) : null}
           </div>
+          {certificateLink ? (
+            <Link href={certificateLink}>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/0lEQVR4nN3WMUpDQRDG8cXCKmglHsEm6DXSWHqoxEYPYZMDeACfeITEzhDBwkILhdj9ZGWLh/Cem/f2gfrBwMzuMn+YmYUJoSZM8Ki/1jFXaFJ6UErrNtCXQk/5Kc//BmEX91v0pOoDWm4BuukE6iN/uUdVKdAyty+/v3R14ShaGAqEMa7xkiz64yFAl/jANFn0L4qCcJLCae1+ls6OS4J2sPoGOsdDvCsGSvEilWuWINFftEG6gka4wjvekj8aAnSLA+xhH4e4GwIUtcFrsk3Oh5YBytoZau+rrjvDJAeWAWrfgppK0AQKpZTyPuMMp3gaCjSPU1eL4wTOuyT7BFtP+nZlQSMGAAAAAElFTkSuQmCC"
+                alt="certificate"
+                className="h-5 mr-2"
+              />
+            </Link>
+          ) : null}
           {description ? (
             <>
               {index === expandedIndex ? (
