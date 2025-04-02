@@ -84,7 +84,7 @@ const HomeLayout = ({ children }) => {
                   href={`#${section.id}`}
                   className={`${
                     activeSection === section.id
-                      ? "font-bold text-primary"
+                      ? "font-bold text-primary bg-neutral"
                       : "text-gray-500"
                   }`}
                   onClick={() => {
