@@ -46,9 +46,8 @@ const Introduction = () => {
     <div id="intro" className="min-h-screen grid grid-cols-5">
       <div className="col-span-5 md:col-span-3 grid grid-rows-7">
         <div className="row-span-3 px-12 md:px-16 md:pd-16 pt-12 pb-8 flex flex-col justify-center">
-          <h2 className="text-3xl font-normal">
-            <span className="text-[#007BE5] text-4xl blowbrush">Hello!</span>{" "}
-            I&apos;m
+          <h2 className="text-3xl font-normal blowbrush">
+            <span className="text-[#007BE5] text-4xl">Hello!</span> I&apos;m
           </h2>
           <h1 className="text-6xl text-primary blowbrush">Sujoy</h1>
           <h2 className="text-2xl mt-2 mb-4 blowbrush font-normal">

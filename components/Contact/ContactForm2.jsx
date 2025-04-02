@@ -5,7 +5,7 @@ const ContactForm2 = () => {
     <form
       action="https://formsubmit.co/2ad2c504e576b1d74790b5a0d8a3d3e0"
       method="POST"
-      className="border-4 border-[#007BE5] rounded-sm p-6 pt-4 bg-neutral w-80 mt-8 md:mt-0"
+      className="border-4 border-[#007BE5] rounded-sm p-6 pt-4 bg-neutral w-full md:w-80 mt-8 md:mt-0"
       style={{ boxShadow: "-8px 8px #45a29e" }}
     >
       <div className="form-control w-full max-w-xs">
@@ -40,27 +40,30 @@ const ContactForm2 = () => {
         </label>
         <div className="grid grid-cols-2">
           <div className="flex items-center justify-between pl-1">
-            <span className="text-xs">Query</span>
+            <span className="text-xs text-gray-400">Query</span>
             <input
               type="radio"
               name="radio-10"
               className="radio radio-primary radio-xs"
+              value="Query"
               defaultChecked
             />
           </div>
           <div className="flex items-center justify-between pl-3">
-            <span className="text-xs">Feedback</span>
+            <span className="text-xs text-gray-400">Feedback</span>
             <input
               type="radio"
               name="radio-10"
+              value="Feedback"
               className="radio radio-primary radio-xs"
             />
           </div>
           <div className="flex items-center justify-between pl-1 mt-2">
-            <span className="text-xs">Project Quotation</span>
+            <span className="text-xs text-gray-400">Project Quotation</span>
             <input
               type="radio"
               name="radio-10"
+              value="Project Quotation"
               className="radio radio-primary radio-xs"
             />
           </div>

@@ -25,7 +25,7 @@ const Experience = () => {
         <p className="text-2xl blowbrush bg-neutral w-fit ml-8 mb-6 block md:hidden">
           Certificates
         </p>
-        <div className="row-span-6 grid grid-cols-2 md:grid-cols-3 px-8">
+        <div className="row-span-6 grid grid-cols-2 md:grid-cols-3">
           <div className="col-span-1 pr-2">
             <img src="/certificates/8051.png" className="mb-2" />
             <div className="flex items-center mb-6">
@@ -34,7 +34,7 @@ const Experience = () => {
                 className="h-8 w-8 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">
+              <p className="text-sm line-clamp-2">
                 Embeded Systems using 8051 Microcontroller
               </p>
             </div>
@@ -45,7 +45,9 @@ const Experience = () => {
                 className="h-8 w-8 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">Frontend Development Libraries</p>
+              <p className="text-sm line-clamp-2">
+                Frontend Development Libraries
+              </p>
             </div>
             <div className="block md:hidden">
               <img src="/certificates/algo-ds.png" className="mb-2" />
@@ -69,7 +71,7 @@ const Experience = () => {
                 className="h-8 w-8 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">CI/CD with GitHub Actions</p>
+              <p className="text-sm line-clamp-2">CI/CD with GitHub Actions</p>
             </div>
             <img src="/certificates/hosting.png" className="mb-2" />
             <div className="flex items-center mb-6">
@@ -78,7 +80,7 @@ const Experience = () => {
                 className="h-7 w-7 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">
+              <p className="text-sm line-clamp-2">
                 Introduction to domain name and web hosting
               </p>
             </div>
@@ -104,7 +106,7 @@ const Experience = () => {
                 className="h-8 w-8 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">
+              <p className="text-sm line-clamp-2">
                 Javascript Algorithm &amp; Data Structures
               </p>
             </div>
@@ -115,7 +117,7 @@ const Experience = () => {
                 className="h-8 w-8 mr-2 object-contain rounded-full"
                 alt=""
               />
-              <p className="text-sm">
+              <p className="text-sm line-clamp-2">
                 Learn to create Apps using Flutter and Dart
               </p>
             </div>
