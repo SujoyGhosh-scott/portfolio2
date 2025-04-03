@@ -13,7 +13,7 @@ const ContactMe = () => {
           You can also drop a message in my social handles.
         </p>
       </div>
-      <div className="col-span-5 md:col-span-3 p-2 relative flex justify-center items-center">
+      <div className="col-span-5 md:col-span-3 px-10 relative flex justify-center items-center">
         <ContactForm2 />
         <a
           href="#intro"
