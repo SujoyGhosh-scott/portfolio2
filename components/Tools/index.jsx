@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 
 // Lazy load ToolsDesktop
 const ToolsDesktop = dynamic(() => import("./ToolsDesktop"), { ssr: false });
+const ToolsMobile = dynamic(() => import("./ToolsMobile"), { ssr: false });
 
 const Tools = () => {
   return (
@@ -16,7 +17,7 @@ const Tools = () => {
           <br /> my projects
         </h1>
       </div>
-      {/* <ToolsMobile /> */}
+      <ToolsMobile />
       <ToolsDesktop />
     </div>
   );
