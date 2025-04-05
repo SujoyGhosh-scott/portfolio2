@@ -42,8 +42,59 @@ const TimeLineItem = ({
           className="flex-1 flex bg-neutral md:max-w-[75%] p-2 px-3 border-[3px] border-gray-400 rounded-sm"
         >
           <div className="flex-1">
-            <p className="text-xs">{duration}</p>
-            <p>{title}</p>
+            <div className="flex">
+              <div className="flex-1">
+                <p className="text-xs">{duration}</p>
+                <p>{title}</p>
+              </div>
+
+              {certificateLink ? (
+                <Link href={certificateLink}>
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/0lEQVR4nN3WMUpDQRDG8cXCKmglHsEm6DXSWHqoxEYPYZMDeACfeITEzhDBwkILhdj9ZGWLh/Cem/f2gfrBwMzuMn+YmYUJoSZM8Ki/1jFXaFJ6UErrNtCXQk/5Kc//BmEX91v0pOoDWm4BuukE6iN/uUdVKdAyty+/v3R14ShaGAqEMa7xkiz64yFAl/jANFn0L4qCcJLCae1+ls6OS4J2sPoGOsdDvCsGSvEilWuWINFftEG6gka4wjvekj8aAnSLA+xhH4e4GwIUtcFrsk3Oh5YBytoZau+rrjvDJAeWAWrfgppK0AQKpZTyPuMMp3gaCjSPU1eL4wTOuyT7BFtP+nZlQSMGAAAAAElFTkSuQmCC"
+                    alt="certificate"
+                    className="h-5 mr-2"
+                  />
+                </Link>
+              ) : null}
+              {description ? (
+                <>
+                  {index === expandedIndex ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={2.5}
+                      stroke="currentColor"
+                      className="size-6 h-5"
+                      onClick={() => handleExpand(index)}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m4.5 15.75 7.5-7.5 7.5 7.5"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={2.5}
+                      stroke="currentColor"
+                      className="size-6 h-5"
+                      onClick={() => handleExpand(index)}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                      />
+                    </svg>
+                  )}
+                </>
+              ) : null}
+            </div>
             {description && expandedIndex === index ? (
               <div className="divider m-0"></div>
             ) : null}
@@ -54,52 +105,6 @@ const TimeLineItem = ({
               ></p>
             ) : null}
           </div>
-          {certificateLink ? (
-            <Link href={certificateLink}>
-              <img
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA/0lEQVR4nN3WMUpDQRDG8cXCKmglHsEm6DXSWHqoxEYPYZMDeACfeITEzhDBwkILhdj9ZGWLh/Cem/f2gfrBwMzuMn+YmYUJoSZM8Ki/1jFXaFJ6UErrNtCXQk/5Kc//BmEX91v0pOoDWm4BuukE6iN/uUdVKdAyty+/v3R14ShaGAqEMa7xkiz64yFAl/jANFn0L4qCcJLCae1+ls6OS4J2sPoGOsdDvCsGSvEilWuWINFftEG6gka4wjvekj8aAnSLA+xhH4e4GwIUtcFrsk3Oh5YBytoZau+rrjvDJAeWAWrfgppK0AQKpZTyPuMMp3gaCjSPU1eL4wTOuyT7BFtP+nZlQSMGAAAAAElFTkSuQmCC"
-                alt="certificate"
-                className="h-5 mr-2"
-              />
-            </Link>
-          ) : null}
-          {description ? (
-            <>
-              {index === expandedIndex ? (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2.5}
-                  stroke="currentColor"
-                  className="size-6 h-5"
-                  onClick={() => handleExpand(index)}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m4.5 15.75 7.5-7.5 7.5 7.5"
-                  />
-                </svg>
-              ) : (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={2.5}
-                  stroke="currentColor"
-                  className="size-6 h-5"
-                  onClick={() => handleExpand(index)}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                  />
-                </svg>
-              )}
-            </>
-          ) : null}
         </div>
       </div>
       {isLast ? null : <div className="h-3 border-l-2 ml-6"></div>}

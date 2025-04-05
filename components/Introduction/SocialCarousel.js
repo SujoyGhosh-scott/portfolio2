@@ -79,7 +79,7 @@ function HackerRankBadges() {
       >
         HackerRank Badges
       </div>
-      <div className="flex justify-around items-center flex-1 bg-neutral-focus">
+      <div className="flex justify-evenly items-center flex-1 bg-neutral-focus">
         <div className="h-20 md:h-24 w-20 md:w-24 bg-yellow-400 mask mask-hexagon flex flex-col justify-center items-center">
           <div className="w-6 h-6">
             <img
