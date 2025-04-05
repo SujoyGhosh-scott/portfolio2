@@ -145,12 +145,14 @@ function GithubActivity() {
       >
         GitHub Activities
       </div>
-      <a href="https://git.io/streak-stats">
-        <img
-          src="https://streak-stats.demolab.com?user=SujoyGhosh-scott&theme=transparent&hide_border=true&border_radius=0&card_width=500&card_height="
-          alt="GitHub Streak"
-        />
-      </a>
+      <div className="flex justify-center items-center">
+        <a href="https://git.io/streak-stats">
+          <img
+            src="https://streak-stats.demolab.com?user=SujoyGhosh-scott&theme=transparent&hide_border=true&border_radius=0&card_width=450&card_height="
+            alt="GitHub Streak"
+          />
+        </a>
+      </div>
     </div>
   );
 }

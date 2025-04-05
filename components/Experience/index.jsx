@@ -22,7 +22,7 @@ const Experience = () => {
         <ExperienceTimeline2 />
       </div>
       <div className="col-span-5 md:col-span-3 row-span-3 grid grid-rows-7 mt-8 md:mt-0">
-        <p className="text-2xl blowbrush bg-neutral w-fit ml-8 mb-6 block md:hidden">
+        <p className="text-2xl blowbrush bg-neutral w-fit mb-6 block md:hidden">
           Certificates
         </p>
         <div className="row-span-6 grid grid-cols-2 md:grid-cols-3">
