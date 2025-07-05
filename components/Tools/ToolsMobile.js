@@ -63,7 +63,7 @@ const ToolsMobile = () => {
       <div className="border p-1 flex justify-center items-center border-gray-800 ">
         <img
           className="h-12 max-h-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/storybook-icon-412x512-1sdnathv.png"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3fPR8Mpub-DK7o65cJtUpEOW8MznvL12T3Q&s"
           alt="Storybook"
         />
       </div>
@@ -93,19 +93,21 @@ const ToolsMobile = () => {
       <div className="border p-1 flex justify-center items-center border-gray-800 bg-neutral text-xl blowbrush">
         AWS
       </div>
-      <div className="border p-1 flex justify-center items-center border-gray-800">
+      <div className="border p-1 flex flex-col gap-2 justify-center items-center border-gray-800">
         <img
           className="h-12 max-h-[80%] object-contain"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_F9G1J91uyUpivDCaZZGkKOVzLHb9MoYT0g&s"
+          src="https://cdn.worldvectorlogo.com/logos/amazon-s3-simple-storage-service.svg"
           alt="aws-s3"
         />
+        <span className="text-xs font-extrabold">S3</span>
       </div>
-      <div className="border p-1 flex justify-center items-center border-gray-800 border-r-0">
+      <div className="border p-1 flex flex-col gap-2 justify-center items-center border-gray-800 border-r-0">
         <img
           className="h-12 max-h-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-cognito-icon-1756x2048-ayslpt3d.png"
+          src="https://cdn.worldvectorlogo.com/logos/aws-cognito.svg"
           alt="aws-cognito"
         />
+        <span className="text-xs font-extrabold">Cognito</span>
       </div>
       <div className="border p-1 flex justify-center items-center border-gray-800 border-l-0">
         <img

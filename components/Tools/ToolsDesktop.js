@@ -109,19 +109,21 @@ const ToolsDesktop = () => {
       <div className="border flex justify-center items-center border-gray-800 bg-neutral text-xl blowbrush">
         AWS
       </div>
-      <div className="border flex justify-center items-center border-gray-800">
+      <div className="border flex justify-center flex-col gap-2 items-center border-gray-800">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_F9G1J91uyUpivDCaZZGkKOVzLHb9MoYT0g&s"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/amazon-s3-simple-storage-service.svg"
           alt="aws-s3"
         />
+        <span className="text-xs font-extrabold">S3</span>
       </div>
-      <div className="border flex justify-center items-center border-gray-800">
+      <div className="border flex flex-col justify-center items-center border-gray-800 gap-2">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-cognito-icon-1756x2048-ayslpt3d.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/aws-cognito.svg"
           alt="aws-cognito"
         />
+        <span className="text-xs font-extrabold">Cognito</span>
       </div>
       <div className="border flex justify-center items-center border-gray-800 border-l-white">
         <img
@@ -167,26 +169,29 @@ const ToolsDesktop = () => {
         />
       </div>
       {/* row 4 */}
-      <div className="border flex justify-center items-center border-gray-800 border-l-0">
+      <div className="border flex flex-col gap-2 justify-center items-center border-gray-800 border-l-0">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-sns-simple-notification-service-icon-2044x2048-9q71lm44.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/aws-sns.svg"
           alt="sns"
         />
+        <span className="text-xs font-extrabold">SNS</span>
       </div>
-      <div className="border flex justify-center items-center border-gray-800">
+      <div className="border flex flex-col gap-2 justify-center items-center border-gray-800">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-quicksight-icon-2048x2048-6pz6utv5.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/amazon-quicksight.svg"
           alt="quicksignt"
         />
+        <span className="text-xs font-extrabold">Quicksight</span>
       </div>
-      <div className="border flex justify-center items-center border-gray-800">
+      <div className="border flex flex-col gap-2 justify-center items-center border-gray-800">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-api-gateway-icon-1696x2048-loojdmdv.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/aws-api-gateway.svg"
           alt="Api gateway"
         />
+        <span className="text-xs font-extrabold">API Gateway</span>
       </div>
       <div className="border flex justify-center items-center border-gray-800 col-span-2 border-l-white bg-neutral text-xl blowbrush">
         CI/CD & Hosting
@@ -216,26 +221,29 @@ const ToolsDesktop = () => {
         Backend
       </div>
       {/* row 5 */}
-      <div className="border flex justify-center items-center border-gray-800 border-l-0 border-b-0">
+      <div className="border flex flex-col gap-2 justify-center items-center border-gray-800 border-l-0 border-b-0">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-ec2-icon-1696x2048-nhw31ife.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/aws-logo.svg"
           alt="EC2"
         />
+        <span className="text-xs font-extrabold">EC2</span>
       </div>
-      <div className="border flex justify-center items-center border-gray-800 border-b-0">
+      <div className="border flex flex-col gap-2 justify-center items-center border-gray-800 border-b-0">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/compute-awselasticbeanstalk-icon-1481x2048-cx1zg4h2.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/aws-elastic-beanstalk-1.svg"
           alt="Elastic Beanstalk"
         />
+        <span className="text-xs font-extrabold">Elastic Beanstalk</span>
       </div>
-      <div className="border flex justify-center items-center border-gray-800 border-b-0">
+      <div className="border flex flex-col gap-2 justify-center items-center border-gray-800 border-b-0">
         <img
-          className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/aws-lambda-icon-423x512-tfxr9wfa.png"
+          className="h-12 max-w-[80%] object-contain"
+          src="https://cdn.worldvectorlogo.com/logos/aws-lambda-1.svg"
           alt="Lambda"
         />
+        <span className="text-xs font-extrabold">Lambda</span>
       </div>
       <div className="border flex justify-center items-center border-gray-800 border-b-0 border-l-white">
         <img
