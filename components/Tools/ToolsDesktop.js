@@ -76,7 +76,7 @@ const ToolsDesktop = () => {
       <div className="border flex justify-center items-center border-gray-800 border-b-white">
         <img
           className="h-16 max-w-[80%] object-contain"
-          src="https://static-00.iconduck.com/assets.00/storybook-icon-412x512-1sdnathv.png"
+          src="https://cms.digitalpolygon.com/sites/default/files/2022-07/storybook-logo.png"
           alt="Storybook"
         />
       </div>

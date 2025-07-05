@@ -21,7 +21,7 @@ const Certificates = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="navbar bg-base-100">
-        <Link href="/">
+        <Link href="/#education">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">
             <svg
               xmlns="http://www.w3.org/2000/svg"

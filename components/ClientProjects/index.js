@@ -22,7 +22,7 @@ const projects = [
     type: "E-Commerce",
     description:
       "A clothing e-commerce store with a payment gateway, courier service integration, and an admin panel for managing products, orders, and site content.",
-    tags: ["NextJs", "Tailwind", "Strapi", "MySQL", "Docker", "Digital Ocean"],
+    tags: ["NextJs", "Tailwind", "Strapi", "MySQL"],
     image: "/client-project/creativenuances.png",
   },
   {
@@ -137,7 +137,7 @@ const ClientProjects = () => {
                 {project.tags.map((tag, idx) => (
                   <span
                     key={idx}
-                    className="text-xs px-2 py-0.5 rounded-sm bg-[#007BE5]"
+                    className="text-xs px-2 py-0.5 rounded-sm bg-[#007BE5] text-black font-bold"
                   >
                     {tag}
                   </span>
