@@ -13,8 +13,8 @@ export default function Home() {
     <>
       <SEO
         title="Sujoy Ghosh | Full-Stack Web Developer"
-        description="Portfolio of Sujoy Ghosh - Full-Stack Web Developer from Kolkata with MSc in Computer Science. Expert in React, Next.js, Node.js, Flutter. Currently Software Engineer at Wellness Connection. View my client projects, certificates, and professional experience."
-        keywords="Sujoy Ghosh, Full Stack Developer, Web Developer, React Developer, Next.js Developer, Node.js, JavaScript, Flutter, Portfolio, Kolkata Developer, Software Engineer, Wellness Connection, YubiHealth, Web Development Services"
+        description="Portfolio of Sujoy Ghosh - Full-Stack Web Developer from Kolkata with MSc in Computer Science. Expert in React, Next.js, Node.js, Flutter. Currently Software Engineer at INDPRO. View my client projects, certificates, and professional experience."
+        keywords="Sujoy Ghosh, Full Stack Developer, Web Developer, React Developer, Next.js Developer, Node.js, JavaScript, Flutter, Portfolio, Kolkata Developer, Software Engineer, INDPRO, Wellness Connection, Web Development Services"
         url="https://sujoyghosh.netlify.app"
         image="/introImage.jpg"
       />
