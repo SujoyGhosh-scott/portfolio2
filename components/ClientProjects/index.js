@@ -26,6 +26,14 @@ const projects = [
     image: "/client-project/creativenuances.png",
   },
   {
+    name: "Inspixel",
+    type: "Company Landing",
+    description:
+      "Company website for a digital marketing company to showcase projects and offer services.",
+    tags: ["NextJs", "Tailwind"],
+    image: "/client-project/inspixel.png",
+  },
+  {
     name: "Phenix Labs",
     type: "Company Landing",
     description:

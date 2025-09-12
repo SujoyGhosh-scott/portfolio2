@@ -62,15 +62,6 @@ const HomeLayout = ({ children }) => {
 
   return (
     <div>
-      <Head>
-        <title>Sujoy Ghosh | Web Developer</title>
-        <meta
-          name="description"
-          content="Portfolio website of Sujoy Ghosh, Full-stack web developer"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       {/* desktop sidebar */}
       <div className="drawer drawer-mobile">
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />

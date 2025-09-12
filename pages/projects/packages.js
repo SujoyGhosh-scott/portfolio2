@@ -1,18 +1,17 @@
 import Link from "next/link";
 import React from "react";
-import Head from "next/head";
+import SEO from "../../components/SEO";
 
 function Packages() {
   return (
     <div>
-      <Head>
-        <title>npm packages | Sujoy Ghosh</title>
-        <meta
-          name="description"
-          content="all the npm packages and react-component libreries created by Sujoy Ghosh"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO
+        title="NPM Packages | Sujoy Ghosh"
+        description="Browse NPM packages and React component libraries created by Sujoy Ghosh. Reusable components and utilities for developers to enhance their web development projects."
+        keywords="Sujoy Ghosh NPM Packages, React Component Library, JavaScript Packages, NPM Developer, Open Source Components, Web Development Tools"
+        url="https://sujoyghosh.dev/projects/packages"
+        image="/projects/project-bg-npm.png"
+      />
       <div className="navbar bg-base-100">
         <Link href="/#projects">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import ColWith1Cert from "../components/Certificates/ColWith1Cert";
 import ColWith2Cert from "../components/Certificates/ColWith2Cert";
 import ColWith3Cert from "../components/Certificates/ColWith3Cert";
-import Head from "next/head";
+import SEO from "../components/SEO";
 
 const Certificates = () => {
   const [selectedImage, setSelectedImage] = useState("");
@@ -12,14 +12,13 @@ const Certificates = () => {
 
   return (
     <div>
-      <Head>
-        <title>certificates | Sujoy Ghosh</title>
-        <meta
-          name="description"
-          content="all the certificates of Sujoy Ghosh"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO
+        title="Certificates | Sujoy Ghosh"
+        description="View all certificates earned by Sujoy Ghosh including Frontend Development, JavaScript Algorithms, Flutter Development, Embedded Systems, CI/CD, Web Hosting, and more from FreeCodeCamp, Udemy, and Codedamn."
+        keywords="Sujoy Ghosh Certificates, Web Development Certificates, FreeCodeCamp, Udemy, Flutter Certification, JavaScript Algorithms, Frontend Development, Embedded Systems, CI/CD Certification"
+        url="https://sujoyghosh.netlify.app/certificates"
+        image="/certificates/freecodecamp.png"
+      />
       <div className="navbar bg-base-100">
         <Link href="/#education">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">

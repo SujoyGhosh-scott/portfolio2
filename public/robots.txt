@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sujoyghosh.netlify.app/sitemap.xml
+
+# Disallow crawling of unnecessary files
+Disallow: /_next/
+Disallow: /api/
+
+# Allow crawling of main content
+Allow: /
+Allow: /certificates
+Allow: /public/

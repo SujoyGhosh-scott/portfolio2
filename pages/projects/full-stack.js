@@ -1,19 +1,18 @@
 import Link from "next/link";
 import React from "react";
 import ProjectCard from "../../components/Projects/ProjectCard";
-import Head from "next/head";
+import SEO from "../../components/SEO";
 
 function FullStack() {
   return (
     <div>
-      <Head>
-        <title>full-stack projects | Sujoy Ghosh</title>
-        <meta
-          name="description"
-          content="all the full-stack projects created by Sujoy Ghosh"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO
+        title="Full-Stack Projects | Sujoy Ghosh"
+        description="Discover full-stack web applications by Sujoy Ghosh including crypto predictor, attendance tracker, news app, space information portal, and Game of Life simulation built with React, Node.js, and modern technologies."
+        keywords="Sujoy Ghosh Full Stack Projects, React Node.js Projects, Web Applications, Crypto Predictor, Attendance Tracker, Full Stack Developer Portfolio"
+        url="https://sujoyghosh.dev/projects/full-stack"
+        image="/projects/project-bg-fullstack.png"
+      />
       <div className="navbar bg-base-100">
         <Link href="/#projects">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">

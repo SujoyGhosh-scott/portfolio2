@@ -1,19 +1,18 @@
 import Link from "next/link";
 import React from "react";
 import ProjectCard from "../../components/Projects/ProjectCard";
-import Head from "next/head";
+import SEO from "../../components/SEO";
 
 function Frontend() {
   return (
     <div>
-      <Head>
-        <title>frontend projects | Sujoy Ghosh</title>
-        <meta
-          name="description"
-          content="all the frontend side projects created by Sujoy Ghosh"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SEO
+        title="Frontend Projects | Sujoy Ghosh"
+        description="Explore frontend projects by Sujoy Ghosh including React applications, responsive websites, interactive UIs, typing test app, and modern web interfaces built with HTML, CSS, JavaScript, and React."
+        keywords="Sujoy Ghosh Frontend Projects, React Projects, JavaScript Projects, HTML CSS Projects, Responsive Web Design, Frontend Development Portfolio"
+        url="https://sujoyghosh.dev/projects/frontend"
+        image="/projects/project-bg-frontend.png"
+      />
       <div className="navbar bg-base-100">
         <Link href="/#projects">
           <button className="btn btn-ghost normal-case text-2xl font-extralight blowbrush">
