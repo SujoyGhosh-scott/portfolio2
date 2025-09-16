@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import { ClientsIcon, ContactIcon, JobIcon, ToolsIcon } from "../icons";
+import AnnouncementButton from "../Announcement";
 
 const sections = [
   { id: "intro", label: "Introduction" },
@@ -117,6 +117,9 @@ const HomeLayout = ({ children }) => {
           isActive={activeSection === "contact"}
         />
       </div>
+
+      {/* Floating Announcement Button */}
+      <AnnouncementButton />
     </div>
   );
 };
